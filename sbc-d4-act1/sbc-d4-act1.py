@@ -9,9 +9,10 @@ while True:
 
     bet = input("Enter your bet 3  digit numbers separated by spaces(ex: 1 3 4): ") # Prompt the user to enter their bet as three-digit numbers separated by spaces.
     bet = list(map(int, bet.split())) # Converts a string 'bet' into a list of integers.
-# Splits the string 'bet' by whitespace and maps each resulting substring to an integer.
-    result = random_num # Assigns the value of 'random_num' to 'result'.
+    
+    # Splits the string 'bet' by whitespace and maps each resulting substring to an integer.
 
+     result = random_num # Assigns the value of 'random_num' to 'result'.
     print(f"Bet: {' '.join(map(str, bet))}") # Constructs a string representation of the list 'bet' with elements converted to strings,
 # separated by spaces, and prints it.
     print(f"Result: {' '.join(map(str, result))}") # Constructs a string representation of the iterable 'result' with elements converted to strings,
