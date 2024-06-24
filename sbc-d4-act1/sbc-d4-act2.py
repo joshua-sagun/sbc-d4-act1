@@ -5,7 +5,6 @@ while True:
     kulob = hands[0]
     hayang = hands[1]
     print("""
-    ---------------CHOICES------------
                     kulob
                     hayang
     """)
