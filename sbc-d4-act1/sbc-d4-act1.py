@@ -23,9 +23,9 @@ while True:
     #print(sorted_bet)
     #print(sorted_result)
 
-    if (bet == result):
+    if (bet == result): # Check if the bet matches the result.
         print("Daug Kaw!")
-    elif (sorted_bet == sorted_result):
+    elif (sorted_bet == sorted_result): # Check if the sorted version of bet matches the sorted version of result.
         print("Daug ka sa Ramble")
     else:
         print("Pilde kaw")
