@@ -12,9 +12,9 @@ while True:
 
     player = input("Enter choices: ")
 
-    c1 = "fold" if randint(0, 1) == 0 else "hayang" # Randomly choose between "fold" or "hayang" for c1
+    c1 = "kulob" if randint(0, 1) == 0 else "hayang" # Randomly choose between "kulob" or "hayang" for c1
 
-    c2 = "unfold" if randint(0, 1) == 1 else "hayang" # Randomly choose between "unfold" or "hayang" for c2
+    c2 = "hayang" if randint(0, 1) == 1 else "hayang" # Randomly choose between "kulob" or "hayang" for c2
     
     print(f" PLayer Choce: {player}")
     print(f" Computer 1 Choce: {c1}")
